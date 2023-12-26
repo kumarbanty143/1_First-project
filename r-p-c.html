@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Rock Paper Scissors</h2>
+    <button onclick=" 
+    playGame('rock');
+  " class="emogi-button"><img src="rock-emoji.png" alt="Rock-hand-image" class="btn-image"></button>
+
+    <button onclick="
+      playGame('paper');
+    " class="emogi-button"><img src="paper-emoji.png" class="btn-image"></button>
+
+    <button onclick="
+      playGame('scissors');
+    " class="emogi-button"><img src="scissors-emoji.png" class="btn-image"></button>
+
+    <h1 id="para"></h3>
+    <h3 id="para2"></h3>
+    <h4 id="para3"></h4>
+
+    <button class="reset-btn"  onclick="
+      score.wins=0;
+      score.loose=0;
+      score.tie=0;
+      // alert(`Wins: ${score.wins}, loose: ${score.loose}, Tie: ${score.tie}`)
+
+      document.getElementById('para').innerHTML='result reset done';
+
+      document.getElementById('para2').innerHTML='';
+
+      document.getElementById('para3').innerHTML=`Wins: ${score.wins}, Looses: ${score.loose}, Ties: ${score.tie}`;
+    ">Reset Score</button>
+
+    
+
+    <script src="script.js">
+    </script>
+  </body>
+</html>

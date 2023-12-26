@@ -1,0 +1,37 @@
+*{
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn-image{
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+  border-radius: 50%;
+
+  cursor: pointer;
+
+}
+
+.emogi-button{
+  height: 120px;
+  width: 120px;
+  margin: 15px;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+
+.small-emoji{
+  height: 40px;
+  width: 40px;
+}
+
+.reset-btn{
+  font-size: 1.1rem;
+  border: none;
+  height: 40px;
+  width: 120px;
+  color: black;
+  background-color: white;
+}
